@@ -1,10 +1,10 @@
 import axios from 'axios';
-const GITHUB_URL = process.env.REACT_APP_GITHUB_URL;
-const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
+const GITHUB_URL = 'https://api.github.com';
+// const GITHUB_TOKEN = "Your personal github token paste here";
 
 const github = axios.create({
   baseURL: GITHUB_URL,
-  headers: { Authorization: `token ${GITHUB_TOKEN}` },
+  // headers: { Authorization: `token ${GITHUB_TOKEN}` },
 });
 
 // Get search results
