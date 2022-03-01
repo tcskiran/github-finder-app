@@ -1,10 +1,10 @@
 import axios from 'axios';
 const GITHUB_URL = 'https://api.github.com';
-// const GITHUB_TOKEN = "Your personal github token paste here";
+// const GITHUB_TOKEN = "Your personal github token paste here"; // Uncomment line 7 if token is used
 
 const github = axios.create({
   baseURL: GITHUB_URL,
-  // headers: { Authorization: `token ${GITHUB_TOKEN}` },
+  // headers: { Authorization: `token ${GITHUB_TOKEN}` }, // Uncomment the following line if you are using Github token
 });
 
 // Get search results
