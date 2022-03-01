@@ -1,6 +1,7 @@
 # Github Finder App
 
 A react app to search for Github profiles and see profile info.
+[Link to preview](https://github-finder-app-kappa-nine.vercel.app/)
 
 ## Usage
 
