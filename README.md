@@ -2,7 +2,7 @@
 
 A react app to search for Github profiles and see profile info.
 
-[Link to preview](https://github-finder-app-kappa-nine.vercel.app/)
+[Link to preview](https://github-finder-app-tcskiran.vercel.app/)
 
 ## Usage
 
